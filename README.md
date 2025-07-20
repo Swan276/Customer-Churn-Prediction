@@ -1,14 +1,13 @@
-# Predicting Customer Churn & Enhancing Retention Using Machine Learning
+# 📊 Predicting Customer Churn & Enhancing Retention Using Machine Learning
 Full project report and notebook can be accessed in this repository.
 
-## Project Overview
+## 🧠 Project Overview
 Customer churn is a critical issue for digital businesses, especially in telecom. This project leverages machine learning to:
-
 - Predict customer churn.
 - Analyze the impact of service features on retention.
 - Provide data-driven recommendations for customer segmentation and engagement strategies.
 
-## Dataset
+## 🗂️ Dataset
 Used fictional Telco data (IBM, 2019) consisting of:
 - Demographic
 - Location
@@ -16,7 +15,7 @@ Used fictional Telco data (IBM, 2019) consisting of:
 - Services
 - Churn Status
 
-## Key Features
+## 🔍 Key Features
 - **Supervised Learning Models**: Logistic Regression, KNN, Random Forest, XGBoost, SVM, Naive Bayes  
 - **Unsupervised Learning**: K-Means for customer segmentation  
 - **Feature Selection**: Information Gain, Fisher Score  
@@ -24,7 +23,7 @@ Used fictional Telco data (IBM, 2019) consisting of:
 - **Class Balancing**: SMOTE  
 - **Model Evaluation**: Accuracy, Recall, F1-Score (focus on recall due to churn class imbalance)
 
-## Key Findings
+## ✅ Key Findings
 - **Logistic Regression** achieved highest recall (93%) and was chosen as the final model.
 - **Longer contracts reduce churn** — statistically proven.
 - **Service usage alone doesn’t significantly affect churn.**
